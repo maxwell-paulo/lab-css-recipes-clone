@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 body,
 html {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Roboto";
   height: 100%;
 }
 
@@ -25,9 +26,9 @@ h1 {
   font-weight: lighter;
 }
 
-p {
+.information-text {
   text-align: center;
-  width: 900px;
+  width: 800px;
   font-size: 1.5rem;
   font-weight: lighter;
 }
@@ -44,4 +45,37 @@ img {
 .imagens {
   display: flex;
   justify-content: center;
+}
+
+.line {
+  background-color: lightgray;
+  width: 75%;
+  height: 3px;
+}
+
+.line-box {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  margin-left: 170px;
+}
+
+ul {
+  margin-left: 170px;
+  list-style-type: "- ";
+}
+
+ol {
+  margin-left: 170px;
+  margin-right: 170px;
+  list-style-type: none;
+}
+
+.directions:before {
+  content: counter(section, decimal) ") ";
+}
+.directions {
+  counter-increment: section;
 }
