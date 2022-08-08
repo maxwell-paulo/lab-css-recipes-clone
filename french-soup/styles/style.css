@@ -30,3 +30,56 @@ h1 {
   color: white;
   font-size: 60px;
 }
+
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+.information-text {
+  width: 650px;
+  margin: 100px 170px 50px 170px;
+  text-align: justify;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 400px;
+}
+
+.line {
+  background-color: lightgray;
+  width: 50%;
+  height: 3px;
+}
+
+.line-box {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  margin-left: 330px;
+}
+
+ul {
+  margin-left: 330px;
+  list-style: "-";
+}
+
+ol {
+  margin-left: 330px;
+  margin-right: 330px;
+  list-style-type: none;
+}
+
+.directions:before {
+  content: counter(section, decimal) ") ";
+}
+.directions {
+  counter-increment: section;
+}
