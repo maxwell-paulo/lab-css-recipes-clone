@@ -36,3 +36,12 @@ p {
   display: flex;
   justify-content: center;
 }
+
+img {
+  width: 500px;
+}
+
+.imagens {
+  display: flex;
+  justify-content: center;
+}
